@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome to Stellarrimz</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #8B0000; /* Crimson */
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    .hero {
+      background: linear-gradient(to right, #8B0000, #B22222); /* Crimson gradient */
+      color: #fff;
+      padding: 80px 20px;
+      text-align: center;
+    }
+    .hero h2 {
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 1.2em;
+    }
+    .section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .columns {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 20px;
+      flex-wrap: wrap;
+    }
+    .column {
+      flex: 1;
+      max-width: 250px;
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      border-top: 4px solid #8B0000; /* Crimson accent */
+    }
+    footer {
+      background: #8B0000;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Stellarrimz</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Resources</a>
+      <a href="#">Blog</a>
+      <a href="#">Contact</a>
+      <a href="#">Join Us</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h2>Discover • Invent • Innovate</h2>
+    <p>Namaste and Welcome to Stellarrimz — a hub for science, technology, and collaboration.</p>
+  </div>
+
+  <div class="section">
+    <h2>About Stellarrimz</h2>
+    <p>We showcase innovations, share knowledge, and welcome collaborators in science and technology.</p>
+    <div class="columns">
+      <div class="column">
+        <h3>Discover</h3>
+        <p>Explore the latest updates in science and technology.</p>
+      </div>
+      <div class="column">
+        <h3>Invent</h3>
+        <p>Expand boundaries with new ideas and prototypes.</p>
+      </div>
+      <div class="column">
+        <h3>Innovate</h3>
+        <p>Shape the future with collaborative technology projects.</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2026 StellarRimz — All Rights Reserved</p>
+  </footer>
+</body>
+</html>
