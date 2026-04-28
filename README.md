@@ -25,8 +25,6 @@ uvicorn myapp.fastapi:app --reload --port 8001
 
 The application should start:
 
-![alt text](image.png)
-
 Go to URL: http://127.0.0.1:8001/api/data
 The Hello message should appear as below.
 
