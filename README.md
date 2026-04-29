@@ -26,9 +26,10 @@ uvicorn myapp.fastapi:app --reload --port 8001
 The application should start:
 
 Go to URL: http://127.0.0.1:8001/api/data
+
 The Hello message should appear as below.
 
-![alt text](image-1.png)
+![alt text](image-4.png)
 
 In new terminal, run: 
 python manage.py runserver
